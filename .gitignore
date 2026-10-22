@@ -1,0 +1,14 @@
+# Personal data: keep the folders (via .gitkeep) but not their contents
+export-csv-files/*
+!export-csv-files/.gitkeep
+results-html-files/*
+!results-html-files/.gitkeep
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
